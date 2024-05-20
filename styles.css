@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-start {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: lightskyblue
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  margin: 10px 0;
+  display:flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0 20px;
+  text-align: center;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
