@@ -20,6 +20,8 @@ header {
 .navbar-start {
   list-style-type: none;
   padding: 0;
+  display:flex;
+  flex-direction: row;
 }
 
 .navbar-item {
@@ -41,7 +43,7 @@ a:hover {
 h1, h2, h3, h4 {
   text-align: center;
   margin: 10px 0;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -56,8 +58,9 @@ p {
   justify-content: space-around;
 }
 .contacts {
+  margin: 10px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
